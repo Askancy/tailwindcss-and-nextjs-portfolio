@@ -1,18 +1,27 @@
+/*
+ *   Copyright (c) 2024 
+ *   All rights reserved.
+ */
 import React from "react"
 import Image from "next/image"
 
 const skills = [
   { skill: "HTML" },
+  { skill: "PHP" },
   { skill: "CSS" },
   { skill: "JavaScript" },
   { skill: "TypeScript" },
-  { skill: "Python" },
   { skill: "React" },
   { skill: "Next.js" },
+  { skill: "SCSS" },
+  { skill: "MySql" },
   { skill: "Tailwind CSS" },
-  { skill: "Git" },
-  { skill: "GitHub" },
-  { skill: "Jupyter Notebooks" },
+  { skill: "Git(Hub)" },
+  { skill: "Laravel" },
+  { skill: "InvisionCommunity" },
+  { skill: "XenForo" },
+  { skill: "WordPress" },
+
 ]
 
 const AboutSection = () => {
@@ -30,35 +39,23 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p>
-              Hi, my name is Hosna and I am a{" "}
+              Hi, my name is Daniele and I am a{" "}
               <span className="font-bold">{"highly ambitious"}</span>,
               <span className="font-bold">{" self-motivated"}</span>, and
-              <span className="font-bold">{" driven"}</span> software engineer
-              based in Los Angeles, CA.
+              <span className="font-bold">{" driven"}</span> full-stack developer
+              based in Pisa, Italy. With a career spanning since 2008, I have dedicated myself to handling substantial projects.
             </p>
             <br />
             <p>
-              I graduated from California State University, Northridge in 2019
-              with a BS in Computer Engineering and have been working in the
-              field ever since.
+            Specializing in large-scale endeavors, I find fulfillment in crafting innovative and efficient solutions. 
+            My determination consistently propels me to overcome challenges and continually enhance my skill set. 
+            I am passionate about web development, boasting extensive experience in {" "}
+              <span className="font-bold text-teal-500">creating full-stack applications</span>{" "} that seamlessly marry form and function.
             </p>
             <br />
             <p>
-              I have a wide range of hobbies and passions that keep me busy.
-              From reading, playing sports, traveling, to making YouTube videos,
-              I am always seeking new experiences and love to keep myself
-              engaged and learning new things.
-            </p>
-            <br />
-            <p>
-              I believe that you should{" "}
-              <span className="font-bold text-teal-500">
-                never stop growing
-              </span>{" "}
-              and that&#39;s what I strive to do, I have a passion for
-              technology and a desire to always push the limits of what is
-              possible. I am excited to see where my career takes me and am
-              always open to new opportunities. 🙂
+            With a proactive, results-driven approach, I am committed to delivering high-quality solutions that surpass client expectations. 
+            I am eager to contribute to project success and collaborate with dynamic teams who share my dedication to technological excellence.
             </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">

@@ -1,3 +1,7 @@
+/*
+ *   Copyright (c) 2024 
+ *   All rights reserved.
+ */
 "use client" // this is a client component
 import React from "react"
 import Image from "next/image"
@@ -18,14 +22,13 @@ const HeroSection = () => {
           />
         </div>
         <div className="md:mt-2 md:w-3/5">
-          <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">Hi, I&#39;m Hosna!</h1>
+          <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">Hi, I&#39;m Daniele!</h1>
           <p className="text-lg mt-4 mb-6 md:text-2xl">
             I&#39;m a{" "}
             <span className="font-semibold text-teal-600">
-              Software Engineer{" "}
+             Full-Stack Developer{" "}
             </span>
-            based in Los Angeles, CA. Working towards creating software that
-            makes life easier and more meaningful.
+            based in Pisa, Italy. With a career spanning since 2008, I have dedicated myself to handling substantial projects.
           </p>
           <Link
             to="projects"

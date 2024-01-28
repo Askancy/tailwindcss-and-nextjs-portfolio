@@ -1,3 +1,7 @@
+/*
+ *   Copyright (c) 2024 
+ *   All rights reserved.
+ */
 "use client"
 import "../styles/globals.css"
 import Navbar from "@/components/Navbar"
@@ -16,7 +20,7 @@ export default function RootLayout({
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body className="dark:bg-stone-900">
+      <body className="dark:bg-zinc-950">
         <ThemeProvider enableSystem={true} attribute="class">
           <Navbar />
           {children}

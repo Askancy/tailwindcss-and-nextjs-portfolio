@@ -1,3 +1,7 @@
+/*
+ *   Copyright (c) 2024 
+ *   All rights reserved.
+ */
 import React from "react"
 import Image from "next/image"
 import Link from "next/link"
@@ -6,28 +10,22 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
-    name: "Thankful Thoughts",
+    name: "Gamelite",
     description:
-      "ThankfulThoughts is a web app that generates an appreciative sentence of something or someone you are thankful for.",
-    image: "/thankfulthoughts.png",
-    github: "https://github.com/hqasmei/thankful-thoughts",
-    link: "https://thankfulthoughts.io/",
-  },
-  {
-    name: "PlatoIO",
-    description: "PlatoIO is a to do list app that built using the PERN stack.",
-    image: "/platoio.png",
+      "Gamelite is a video game community born in 2009, created with an ad-hoc structure to provide users with enhanced services and smoother navigation. The site is dedicated to showcasing the world of video games in all its facets, covering a wide range of genres and platforms, aiming to always offer visitors clear and precise insights. Video games, and all the news surrounding them, are the passion that underlies Gamelite, capable of bringing everyone together, from the staff members to each individual visitor.",
+    image: "/gamelite.png",
     github: "https://github.com/hqasmei/platoio",
-    link: "https://platoio.com/register",
+
+    link: "https://gamelite.it",
   },
   {
-    name: "Kator Family Photos",
-    description:
-      "Kator Family Photos is a photos and video digitization service in the LA area.",
-    image: "/familyphotos.png",
-    github: "https://github.com/hqasmei/katorfamilyphotos",
-    link: "https://katorfamilyphotos.com/",
-  },
+    name: "InvisionITA",
+    description: "InvisionITA is an Italian community centered around the InvisionCommunity software. We specialize in providing translations and support for the platform in the Italian language. Our dedicated team is committed to enhancing the user experience by offering comprehensive assistance and localized content. As a community, we strive to bridge language gaps, ensuring that Italian-speaking users can fully leverage the capabilities of InvisionCommunity. Explore our platform for expertly crafted translations, reliable support, and a collaborative environment tailored to the needs of the Italian user base.",
+    image: "/invisionita.png",
+    github: "https://github.com/hqasmei/platoio",
+
+    link: "https://invisionita.it",
+  }
 ]
 
 const ProjectsSection = () => {
@@ -51,7 +49,7 @@ const ProjectsSection = () => {
                         alt=""
                         width={1000}
                         height={1000}
-                        className="rounded-xl shadow-xl hover:opacity-70"
+                        className="rounded-xl shadow-xl hover:opacity-70 mt-24"
                       />
                     </Link>
                   </div>
@@ -61,12 +59,7 @@ const ProjectsSection = () => {
                       {project.description}
                     </p>
                     <div className="flex flex-row align-bottom space-x-4">
-                      <Link href={project.github} target="_blank">
-                        <BsGithub
-                          size={30}
-                          className="hover:-translate-y-1 transition-transform cursor-pointer"
-                        />
-                      </Link>
+
                       <Link href={project.link} target="_blank">
                         <BsArrowUpRightSquare
                           size={30}
